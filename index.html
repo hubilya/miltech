@@ -343,20 +343,25 @@ border: 1px solid rgba(255, 255, 255, 0.71);
          .gradient img{
              /*background-color: #0ff;*/
              
-             width: 20em;
-             
-             
+             width:22em;
+              animation: MoveUpDown 1s linear infinite;
+          position: relative;
          }
+   
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 0;
+  }
+  50% {
+    bottom: -10px;
+  }
+}
     .container11 div{
     display: inline-block;
-  align-items: center;
-  justify-content: center;
-     margin:0 5.5em 0em ;
+     
     }
-    .text{
-   
-    }
-           @media screen and (max-width: 600px) {
+       @media screen and (max-width: 600px) {
           .gradient img {
                         border-radius:  35px 35px 35px 35px;
             }
