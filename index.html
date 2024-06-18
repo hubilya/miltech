@@ -25,11 +25,14 @@
        <div class="container">
           <h1 data-text="TACTISHOP">Welcome to </h1><br>
                <h3>Here you can track and purchase the latest goods for self defense and miltech service</h3><br><br><br>
+                  <div class="container11">
                    <div class="gradient">
                        <img src="mil.png">
-                       
                    </div>
-                   
+                   <div class="text">
+                       <h1>TIME TO BAG UP</h1>
+                   </div>
+           </div>
        </div>
        
         <div class="container2">
@@ -193,7 +196,7 @@
                 text-align: center;   
                 height:780px;
              align-items: center;
-             
+            
          }
  
    
@@ -244,7 +247,7 @@ border-radius: 10px;
     .price{
       margin:0.2em;
         font-size:25px;
-        font-family:Tech;
+        font-family:;
     }
 
 
@@ -339,11 +342,20 @@ border: 1px solid rgba(255, 255, 255, 0.71);
          }
          .gradient img{
              /*background-color: #0ff;*/
-             height:400px;
-             width: 300px;
-             margin-right:40%;
+             
+             width: 20em;
+             
              
          }
+    .container11 div{
+    display: inline-block;
+  align-items: center;
+  justify-content: center;
+     margin:0 5.5em 0em ;
+    }
+    .text{
+   
+    }
            @media screen and (max-width: 600px) {
           .gradient img {
                         border-radius:  35px 35px 35px 35px;
@@ -462,25 +474,7 @@ border: 1px solid rgba(255, 255, 255, 0.71);
                 x.className = "nav";
             }
      }
-                  /*                          
-        var xmlhttp = new XMLHttpRequest();
-    var url = "https://api.coindesk.com/v1/bpi/currentprice.json";
-    xmlhttp.onreadystatechange = function() {
-      if (this.readyState == 4  &&  this.status == 200) {
-        var json = JSON.parse(this.responseText);
-        parseJson(json);
-      }		
-    };
-    xmlhttp.open("GET", url, true);
-    xmlhttp.send();
-    function parseJson(json) {
-
-      var usdValue = "$" + json["bpi"]["USD"]["rate"];
-      
-      document.getElementById("bit").innerText = usdValue 
-}*/
-        /*COIN PRICES*/
-
+           
 
 
 // When the user clicks on the button, scroll to the element of the document
@@ -488,7 +482,7 @@ function Stats() {
   document.documentElement.scrollTop = 820;
 }
     function Login() {
-  document.documentElement.scrollTop = 1800;
+  document.documentElement.scrollTop = 2800;
 }    
 
 
